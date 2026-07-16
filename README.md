@@ -4,6 +4,11 @@
 
 NeuroRoute C explores a simple question: how can neural-inspired execution graphs be implemented as transparent, reproducible systems code rather than probabilistic model behavior?
 
+** ARM64 support
+
+NeuroRoute C uses portable C11 and includes ARM64 static-library builds for Linux AArch64 and macOS Apple Silicon. The routing and Hamming-distance logic is unchanged across architectures. ARM64 library, test, and demo sources were cross-compiled with strict Clang warnings; native users can run `make test` and `make demo` on ARM64 hardware for full runtime validation.
+
+
 The project combines two compact mechanisms:
 
 1. **Weighted graph routing** that selects the strongest outbound path from a node, records route usage atomically, and preserves a deterministic fallback.
