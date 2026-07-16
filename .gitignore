@@ -1,55 +1,69 @@
-# Prerequisites
-*.d
-
-# Object files
+# Compiled C object files
 *.o
-*.ko
 *.obj
-*.elf
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
+# Static and shared libraries
 *.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
+*.lib
 *.so
 *.so.*
 *.dylib
+*.dll
 
 # Executables
 *.exe
 *.out
 *.app
-*.i*86
-*.x86_64
-*.hex
 
-# Debug files
+# Generated project binaries
+tests/test_routing
+tests/test_spatial_pool
+examples/demo
+
+# Build directories
+build/
+bin/
+dist/
+out/
+
+# Debug and sanitizer output
 *.dSYM/
-*.su
-*.idb
-*.pdb
+*.profraw
+*.profdata
+*.gcda
+*.gcno
+*.gcov
+*.plist
+coverage/
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Crash dumps
+core
+core.*
+*.core
 
-# debug information files
-*.dwo
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Editor files
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Clang tooling cache
+.cache/
+.clangd/
+
+# CMake files, if used later
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile.cmake
