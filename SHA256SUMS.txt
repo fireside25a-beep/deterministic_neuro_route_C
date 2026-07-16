@@ -1,2 +1,4 @@
 54d02a8a4edcf15fada45e75e24dd8151db1b14d987382ccec2299aacb7f8d8c  neuroroute-c-v0.3.0.zip
 454b13f1bc84f7b5acd3f3995998d166d87d61e917c49e51ff3351f6d595ba1a  neuroroute-c-v0.3.0-updated.tar.gz
+0ec7f8d5f7c1a69d213852041ec341c43fdafc55a1e9d873e78dbf5bdb41bba6  neuroroute-c-v0.3.0-arm64.zip
+923f18321a93ca43c35a92f5d36d0acaaa367089e7ce71ac2413d945b24742a5  neuroroute-c-v0.3.0-arm64.tar.gz
