@@ -6,7 +6,7 @@ NeuroRoute C explores a simple question: how can neural-inspired execution graph
 
 ** ARM64 support
 
-NeuroRoute C uses portable C11 and includes ARM64 static-library builds for Linux AArch64 and macOS Apple Silicon. The routing and Hamming-distance logic is unchanged across architectures. ARM64 library, test, and demo sources were cross-compiled with strict Clang warnings; native users can run `make test` and `make demo` on ARM64 hardware for full runtime validation.
+NeuroRoute C uses portable C11 and includes ARM64 static-library builds. The routing and Hamming-distance logic is unchanged across architectures. ARM64 library, test, and demo sources were cross-compiled with strict Clang warnings; native users can run `make test` and `make demo` on ARM64 hardware for full runtime validation.
 
 
 The project combines two compact mechanisms:
